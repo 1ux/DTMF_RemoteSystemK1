@@ -28,7 +28,7 @@ This project is still at an early stage. Although the source code seems to work 
 
 ## Hardware Setup
 <div align="center">
-  <img src="figures/Schematic_formatiert.svg" alt="DTMF example picture" height="376" width="575">
+  <img src="figures/Schematic_formatiert.svg" alt="DTMF example picture" height="392" width="600">
 </div>
 
 ## Usage
