@@ -21,13 +21,15 @@ To give you an idea of the project, the following figure shows a sketch.
 A DTMF-capable radio device sends a defined DTMF string to the receiver. (left side)
 The receiver radio (right) forwards the demodulated AF to the MT8870 DTMF decoder. The decoder in turn converts the DTMF AF signal into a 4-bit binary string and sends this to the microcontroller (MCU). The DTMF decoder and the MCU are summarised as the MCU decoder in the illustration. The MCU analyses the bit sequence and reacts to it. In this case with the time announcement. The MCU switches the receiver to transmit and sends a systemised voice with time announcement and call sign.
 
-[![Click here for a video demonstration]](https://forum.tiband.de/uploads/default/original/1X/950e07430d2157a88715edeb444a1c2967b47505.mp4)
+[Click here for a video demonstration](https://forum.tiband.de/uploads/default/original/1X/950e07430d2157a88715edeb444a1c2967b47505.mp4)
 
 ## Project status and known problems
 This project is still at an early stage. Although the source code seems to work reliably and the hardware schematic is correct, there are still some organisational and stylistic things that should be improved in the source code. The biggest point is the integration of a scheduler to realise process handling 
 
 ## Hardware Setup
-...
+<div align="center">
+  <img src="figures/Schematic_formatiert.svg" alt="DTMF example picture" height="376" width="575">
+</div>
 
 ## Usage
 ...
